@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Memory Game- level 2 </title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="perCSS/mainPage2.css"/>
+</head>
+<body id="body">
+	
+	<audio controls loop id="gameSound" hidden="true">
+		<source src="Sounds/gameSound2.mp3" type="audio/mp3">
+		Your browser doesnot support the audio
+	</audio>
+	
+	<div class="container-fluid">
+		
+		<div class="row" id="title">
+			<div class="col-lg-3 col-md-3 col-12">
+			</div>
+			<div class="col-lg-6 col-md-6 col-12" id="heading">
+				<h2> M<span class="text-danger">e</span>mory Game </h2> 
+			</div>
+			<div class="col-lg-3 col-md-3 col-12">
+			</div>
+		</div>
+		
+		<div class="row d-block d-md-none" id="smallScreenMenu">
+			<i class="fas fa-bars" data-toggle="dropdown" type="button" id="dropDownMenu"></i>
+			<div class="dropdown-menu">
+
+					<p class="dropdown-item"> Sound : </p><button class="btn btn-outline-dark" onclick="playMusic()" > Turn on </button><br><br>
+					<p class="dropdown-item"> SFX : </p><input type="radio" name="SFXsml" checked="checked" id="rb2sml"> On <input type="radio" name="SFXsml"> Off<br><br>
+			</div>
+		</div>
+	
+	</div>
+	
+	<div class="container-fluid">
+		
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-12">
+				<div class="d-none d-md-block" id="optionTab">
+					<p> Sound : </p><button class="btn btn-outline-light" onclick="playMusic()" id="onOffButton"> Turn on </button><br><br>
+					<p> SFX : </p><input type="radio" name="SFX" checked="checked" id="rb2"> On <input type="radio" name="SFX"> Off<br><br>
+					<div class="scoreBoard">
+						<h3> Score : <span id="score"> 0 </span></h3>
+					</div>
+
+					<div class="button">
+						<button class="btn btn-outline-light" id="restart"> Restart </button>
+						<p> Music taken from : <a href="https://youtu.be/4Tr0otuiQuU" target=" ">https://youtu.be/4Tr0otuiQuU</a></p>
+						<a href="mainPage3.html"><a href="mainPage3.html"><button class="btn btn-outline-light nextLevel"> Next Level </button></a> 
+						<button class="btn btn-outline-light seeYourStats"> See Your Stats </button> 
+					</div>
+				</div>	
+					<div class="d-block d-md-none scoreBoard2">
+						<h3 class="text-light"> Score : <span id="score2"> 0 </span></h3>
+					</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-12" id="toCentralize">
+				<div class="d-block d-md-none buttons">
+					<button class="btn btn-outline-light" id="seeYourStats2"> See Your Stats </button><button class="btn btn-outline-light" id="rstrtBtn"> Restart </button><a href="mainPage3.html"><button class="btn btn-outline-light" id="nxtLvlBtn"> Next Level </button></a>
+				</div>
+				<div id="gameBoard">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-12">
+				<div class="d-none d-md-block"id="scoreTab">
+					<h4> Level 2 : </h4>
+					<p> This level consists of a total of 30 cards </p>
+					<p>  Ant </p>
+					<p>  Bee </p>
+					<p> Bunny </p>
+					<p>  Butterfly </p>
+					<p>  Cat </p>
+					<p> Cockroach </p>
+					<p>  Cow </p>
+					<p> Crab </p>
+					<p> Crocodile </p>
+					<p class="text-primary" id="modal" data-toggle="modal" data-target="#exampleModal">  See more.. </p>
+				</div>
+
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  					<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+      						<div class="modal-header">
+        						<h5 class="modal-title" id="exampleModalLabel">Level 2 : Cards</h5>
+        						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        						</button>
+      						</div>
+      						<div class="modal-body bg-dark">
+      							<p> Dog </p>
+      							<p> Donkey	</p>
+      							<p> Eagle </p>
+      							<p> Elephant </p>
+      							<p> Fish </p>
+      							<p> Giraffee </p>
+      						</div>
+    					</div>
+ 				 	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="JS/mainPage2.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/3c2a34836f.js" crossorigin="anonymous"></script>
+</html>

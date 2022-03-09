@@ -1,0 +1,95 @@
+#body{
+	background:url(Images/vintage.jpg);
+	font-family: arial narrow;
+}
+#title{
+	background:rgba(0,0,0,.5);
+	color:white;
+}
+#heading{
+	padding:10px;
+	text-align:center;
+	font-family:Harrington;
+}
+#optionTab{
+	color:white;
+	margin-top:20px;
+}
+#scoreTab{
+	color:white;
+	margin-top:20px;
+	text-align: center;
+	background:rgba(0,0,0,.5);
+	border-radius:10px;
+	padding:20px;
+}
+#gameBoard{
+	height:500px;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:6%;
+	cursor:pointer;
+	box-shadow:1px 2px 2px 1px grey;
+}
+.scoreBoard,.scoreBoard2{
+	background:rgba(0,0,0,.7);
+	text-align:center;
+	padding:20px;
+	border-radius:30px;
+}
+.buttons{
+	text-align:center;
+}
+.nextLevel{
+	visibility: hidden;
+}
+.seeYourStats{
+	visibility: hidden;
+}
+.scoreBoard2{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.button{
+	margin-top:20px;
+	text-align:center;
+}
+.button button{
+	width:60%;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+.button p{
+	margin-top:10px;
+}
+#seeYourStats2{
+	visibility: hidden;
+}
+#nxtLvlBtn{
+	margin-left:10px;
+	visibility: hidden;
+}
+#rstrtBtn{
+	margin-left:10px;
+	width:40%;
+	border-radius:10px;
+	margin-right:10px;
+}
+#smallScreenMenu{
+	color:white;
+	text-align:left;
+	margin-bottom:10px;
+	background:rgba(100, 184, 59,.5);
+}
+#smallScreenMenu i{
+	font-size:25px;
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	cursor:pointer;
+	color:white;
+}
+.dropdown-menu{
+	text-align:center;
+}
