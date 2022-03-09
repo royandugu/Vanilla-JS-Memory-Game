@@ -1,0 +1,15 @@
+# Vanilla-JS-Memory-Game
+A little click and show picture matching game using Vanilla JS, HTML, CSS, bootstrap, JQuery
+
+#Features
+1. SFX options (only for PC Version later to be added to mobile)
+2. Music on off options
+3. Score checking
+4. Error checking
+5. Status on the basis of errors and matchings
+6. 3 levels and the number of card increases along with the increase in level (Spring, Autumn, Winter)
+
+#Issues
+1. SFX button work only on PC
+2. No use of modules therefore at level 3 the LOC just gets massive due to card object length 
+3. Difficulty in managing grids for level 3 (mobile version)
