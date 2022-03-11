@@ -1,6 +1,11 @@
 # Vanilla-JS-Memory-Game
 A little click and show picture matching game using Vanilla JS, HTML, CSS, bootstrap, JQuery
 
+A simple traditional memory game where a bunch of cards are present in hidden format.
+The user has to click a single card and a picture pops up. Then they have to perform hit and trail for 
+another card. If the picture on this new card matches up with the previous then the score increases. If 
+it doesn't, both the cards return back to being hidden. 
+
 #Features
 1. SFX options (only for PC Version later to be added to mobile)
 2. Music on off options
