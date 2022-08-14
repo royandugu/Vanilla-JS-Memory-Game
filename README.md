@@ -18,3 +18,15 @@ it doesn't, both the cards return back to being hidden.
 1. SFX button work only on PC
 2. No use of modules therefore at level 3 the LOC just gets massive due to card object length 
 3. Difficulty in managing grids for level 3 (mobile version)
+
+
+<br>
+Level 1: 
+<img src="![](ForReadMe%5C1.JPG)"/>
+<br>
+Level 2:
+<img src="![](ForReadMe%5C2.JPG)"/>
+<br>
+Level 3:
+<img src="![](ForReadMe%5C3.JPG)"/>
+<br>
