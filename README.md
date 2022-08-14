@@ -22,11 +22,12 @@ it doesn't, both the cards return back to being hidden.
 
 <br>
 Level 1: 
-![](ForReadMe%5C1.JPG)
+<img src="./ForReadMe/1.jpg"/>
 <br>
 Level 2:
-![](ForReadMe%5C2.JPG)
+<img src="./ForReadMe/2.jpg"/>
 <br>
 Level 3:
-![](ForReadMe%5C3.JPG)
+<img src="./ForReadMe/3.jpg"/>
+
 <br>
