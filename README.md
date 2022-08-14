@@ -22,12 +22,17 @@ it doesn't, both the cards return back to being hidden.
 
 <br>
 Level 1: 
-<img src="./ForReadMe/1.jpg"/>
+
+![1](https://user-images.githubusercontent.com/95025114/184539842-88e81491-b289-421b-beff-34716ec3f041.jpg)
+
 <br>
 Level 2:
-<img src="./ForReadMe/2.jpg"/>
+![2](https://user-images.githubusercontent.com/95025114/184539873-b4c30a5c-2931-4ba7-a0cf-ab552bd6d40f.jpg)
+
 <br>
 Level 3:
-<img src="./ForReadMe/3.jpg"/>
+![3](https://user-images.githubusercontent.com/95025114/184539887-a59e7861-d874-41be-a5ed-57dda99b811d.jpg)
+
+
 
 <br>
